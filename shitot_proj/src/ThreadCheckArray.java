@@ -66,6 +66,9 @@ public class ThreadCheckArray implements Runnable
 					sd.setFlag(true);
 				}
 			}
+		// commit magniv2
+		//hellow
+		//.....
 		if (flag)
 		{
 			if (Thread.currentThread().getName().equals("thread1"))
@@ -75,7 +78,9 @@ public class ThreadCheckArray implements Runnable
 				sd.setWinArray(winArray);
 			}
 			//winner1
-			System.out.println(Thread.currentThread().getName());
+
+				
+			}	
 		}
-	}
+	
 }
