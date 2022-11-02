@@ -17,6 +17,7 @@ public class TestThreadCheckArray {
 			
 			SharedData sd = new SharedData(array, num);
 			
+			long startTime = System.nanoTime();
 			thread1 = new Thread(new ThreadCheckArray(sd), "thread1");
 			thread2 = new Thread(new ThreadCheckArray(sd), "thread2");
 			thread1.start();
@@ -30,6 +31,9 @@ public class TestThreadCheckArray {
 			{
 				e.printStackTrace();
 			}
+			long endTime = System.nanoTime();
+			long duration = (endTime - startTime);
+			System.out.println("time to finish: "+duration);
 			if (!sd.getFlag())
 			{
 				System.out.println("Sorry");
