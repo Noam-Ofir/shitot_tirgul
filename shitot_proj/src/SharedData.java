@@ -1,8 +1,17 @@
+/**
+ * 
+ * @author classroom
+ *
+ */
 public class SharedData 
 {
+    /** array is the input array */ 
 	private int [] array;
+	/** winArray is a boolean array */
 	private boolean [] winArray;
+	/** flag boolean is the flag for success or failure array */
 	private boolean flag;
+	/** b is the shared value */
 	private final int b;
 	
 	public SharedData(int[] array, int b) {
