@@ -66,7 +66,7 @@ public class ThreadCheckArray implements Runnable
 					sd.setFlag(true);
 				}
 			}
-		// commit magniv
+		// commit magniv2
 		if (flag)
 		{
 			if (Thread.currentThread().getName().equals("thread1"))
