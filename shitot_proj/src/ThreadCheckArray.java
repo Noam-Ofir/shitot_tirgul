@@ -69,6 +69,7 @@ public class ThreadCheckArray implements Runnable
 		// commit magniv2
 		//hellow
 		//.....
+		//12334567878
 		if (flag)
 		{
 			if (Thread.currentThread().getName().equals("thread1"))
