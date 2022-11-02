@@ -74,6 +74,7 @@ public class ThreadCheckArray implements Runnable
 			{
 				sd.setWinArray(winArray);
 			}
+			//winner
 			System.out.println(Thread.currentThread().getName());
 		}
 	}
